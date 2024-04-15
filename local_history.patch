@@ -1,0 +1,17 @@
+Index: Dexter/acnt_chq_title_verification.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Dexter/acnt_chq_title_verification.py b/Dexter/acnt_chq_title_verification.py
+--- a/Dexter/acnt_chq_title_verification.py	
++++ b/Dexter/acnt_chq_title_verification.py	(date 1675616497811)
+@@ -15,7 +15,7 @@
+                       7: {'B': '8'}, 8: {'8': 'B'}, 9: {'1': 'I'}, 10: {'I': '1'}, 11: {'1': 'i'}, 12: {'i': '1'},
+                       13: {'l': '1'}, 14: {'1': 'l'}, 15: {'1': 'L'}, 16: {'8': 'R'}, 17: {'R': '8'}, 18: {'Z': '7'},
+                       19: {'7': 'Z'}, 20: {'I': 'l'}, 21: {'l': 'I'}, 22: {'O': 'Q'}, 23: {'Q': 'O'}, 24: {'L': 'I'},
+-                      25: {'I': 'L'}, 26: {'Q': 'G'}, 27: {'Q': 'g'}, 28: {'e': 'a'}, 30:{'a':'e'}, 31:{'D': 'O'}}
++                      25: {'I': 'L'}, 26: {'Q': 'G'}, 27: {'Q': 'g'}, 28: {'e': 'a'}, 30:{'a':'e'}, 31:{'D': 'O'}, 32:{'V': 'L'}}
+     def dict_check(self):
+         indeces_of_space = []
+         idx = list(range(len(self.cheque_title)))
